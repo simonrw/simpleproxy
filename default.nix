@@ -4,4 +4,6 @@ pkgs.buildGoModule {
   version = "0.1.0";
   src = ./.;
   vendorHash = null;
+
+  CGO_ENABLED = "0";
 }
